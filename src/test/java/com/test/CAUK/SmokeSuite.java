@@ -1,5 +1,7 @@
 package com.test.CAUK;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -14,6 +16,8 @@ public class SmokeSuite {
 		
 		System.setProperty("webdriver.chrome.driver", "D://Gouranga_Software//Selenium_All//ChromeDriver_Updated//chromedriver.exe");
 		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.cambridgeassessment.org.uk/");
 		
 		//https://www.cambridgeassessment.org.uk/
