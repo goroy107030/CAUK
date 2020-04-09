@@ -34,6 +34,11 @@ public class SmokeSuite {
 		String extitle="The University's international exams group | Cambridge Assessment";
 		Assert.assertEquals(extitle, homepagetitle);
 	}
+	@Test
+	public void printtest() {
+		Assert.assertEquals(true, false);
+		
+	}
 	
 
 }
