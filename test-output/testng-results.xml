@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70887" started-at="2020-04-10T06:06:22Z" finished-at="2020-04-10T06:07:33Z">
+  <suite name="Default suite" duration-ms="122608" started-at="2020-04-11T06:29:32Z" finished-at="2020-04-11T06:31:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70887" started-at="2020-04-10T06:06:22Z" finished-at="2020-04-10T06:07:33Z">
+    <test name="Default test" duration-ms="122608" started-at="2020-04-11T06:29:32Z" finished-at="2020-04-11T06:31:35Z">
       <class name="com.test.CAUK.SmokeSuite">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="init" is-config="true" duration-ms="29224" started-at="2020-04-10T06:06:22Z" finished-at="2020-04-10T06:06:51Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="init" is-config="true" duration-ms="53063" started-at="2020-04-11T06:29:32Z" finished-at="2020-04-11T06:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="aboutuslinkTest()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="aboutuslinkTest" duration-ms="11182" started-at="2020-04-10T06:06:51Z" finished-at="2020-04-10T06:07:03Z">
+        <test-method status="PASS" signature="aboutuslinkTest()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="aboutuslinkTest" duration-ms="22140" started-at="2020-04-11T06:30:25Z" finished-at="2020-04-11T06:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutuslinkTest -->
-        <test-method status="PASS" signature="trailing()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="trailing" is-config="true" duration-ms="1413" started-at="2020-04-10T06:07:03Z" finished-at="2020-04-10T06:07:04Z">
+        <test-method status="PASS" signature="trailing()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="trailing" is-config="true" duration-ms="2094" started-at="2020-04-11T06:30:47Z" finished-at="2020-04-11T06:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trailing -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="init" is-config="true" duration-ms="18334" started-at="2020-04-10T06:07:04Z" finished-at="2020-04-10T06:07:22Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="init" is-config="true" duration-ms="30830" started-at="2020-04-11T06:30:49Z" finished-at="2020-04-11T06:31:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="outvaluesTest()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="outvaluesTest" duration-ms="9347" started-at="2020-04-10T06:07:22Z" finished-at="2020-04-10T06:07:32Z">
+        <test-method status="PASS" signature="outvaluesTest()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="outvaluesTest" duration-ms="12925" started-at="2020-04-11T06:31:20Z" finished-at="2020-04-11T06:31:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- outvaluesTest -->
-        <test-method status="PASS" signature="trailing()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="trailing" is-config="true" duration-ms="1356" started-at="2020-04-10T06:07:32Z" finished-at="2020-04-10T06:07:33Z">
+        <test-method status="PASS" signature="trailing()[pri:0, instance:com.test.CAUK.SmokeSuite@be83e4]" name="trailing" is-config="true" duration-ms="1482" started-at="2020-04-11T06:31:33Z" finished-at="2020-04-11T06:31:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trailing -->

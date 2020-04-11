@@ -18,9 +18,9 @@ public class SmokeSuite {
 	@BeforeMethod
 	public void init() {
 		
-		System.setProperty("webdriver.chrome.driver", "D://Gouranga_Software//Selenium_All//ChromeDriver_Updated//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();  
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.cambridgeassessment.org.uk/");
 		
